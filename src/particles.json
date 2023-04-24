@@ -1,0 +1,194 @@
+{
+  "autoPlay": true,
+  "background": {
+    "color": {
+      "value": "#000"
+    }
+  },
+  "delay": 0,
+  "fullScreen": {
+    "enable": true,
+    "zIndex": -1
+  },
+  "detectRetina": true,
+  "duration": 0,
+  "fpsLimit": 120,
+  "particles": {
+    "color": {
+      "value": "#ffffff",
+      "animation": {
+        "h": {
+          "count": 0,
+          "enable": false,
+          "offset": 0,
+          "speed": 1,
+          "decay": 0,
+          "sync": true
+        },
+        "s": {
+          "count": 0,
+          "enable": false,
+          "offset": 0,
+          "speed": 1,
+          "decay": 0,
+          "sync": true
+        },
+        "l": {
+          "count": 0,
+          "enable": false,
+          "offset": 0,
+          "speed": 1,
+          "decay": 0,
+          "sync": true
+        }
+      }
+    },
+    "move": {
+      "enable": true,
+      "outModes": {
+        "default": "destroy",
+        "bottom": "destroy",
+        "left": "destroy",
+        "right": "destroy",
+        "top": "destroy"
+      },
+      "random": false,
+      "size": true,
+      "speed": 1,
+      "spin": {
+        "acceleration": 0.05,
+        "enable": true
+      },
+
+      "trail": {
+        "enable": true,
+        "length": 1,
+        "fill": {
+          "color": {
+            "value": "#000000"
+          }
+        }
+      }
+    },
+
+    "shape": {
+      "type": "square"
+    },
+    "size": {
+      "random": {
+        "enable": true,
+        "minimumValue": 1
+      },
+      "value": {
+        "min": 1,
+        "max": 15
+      },
+      "animation": {
+        "count": 0,
+        "enable": false,
+        "speed": 5,
+        "decay": 0,
+        "sync": false,
+        "destroy": "none",
+        "startValue": "random"
+      }
+    },
+
+    "life": {
+      "count": 0,
+      "delay": {
+        "random": {
+          "enable": false,
+          "minimumValue": 0
+        },
+        "value": 0,
+        "sync": false
+      },
+      "duration": {
+        "random": {
+          "enable": true,
+          "minimumValue": 1000
+        },
+        "value": 0,
+        "sync": false
+      }
+    },
+
+    "destroy": {
+      "bounds": {},
+      "mode": "none",
+      "split": {
+        "count": 1,
+        "factor": {
+          "random": {
+            "enable": false,
+            "minimumValue": 0
+          },
+          "value": 3
+        },
+        "rate": {
+          "random": {
+            "enable": false,
+            "minimumValue": 0
+          },
+          "value": {
+            "min": 4,
+            "max": 9
+          }
+        },
+        "sizeOffset": true,
+        "particles": {}
+      }
+    }
+  },
+
+  "emitters": {
+    "rate": {
+      "quantity": 25,
+      "delay": 1.5
+    },
+    "startCount": 300,
+    "size": {
+      "mode": "percent",
+      "height": 0,
+      "width": 0
+    },
+
+    "position": {
+      "x": 25,
+      "y": 50
+    },
+    "spawnColor": {
+      "value": "#0000FF",
+      "animation": {
+        "h": {
+          "count": 0,
+          "enable": true,
+          "offset": 0,
+          "speed": 5,
+          "decay": 0,
+          "sync": true
+        },
+        "s": {
+          "count": 0,
+          "enable": false,
+          "offset": 0,
+          "speed": 1,
+          "decay": 0,
+          "sync": true
+        },
+        "l": {
+          "count": 0,
+          "enable": true,
+          "offset": {
+            "min": 20,
+            "max": 80
+          },
+          "speed": 0,
+          "decay": 0,
+          "sync": true
+        }
+      }
+    }
+  }
+}
