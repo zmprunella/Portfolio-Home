@@ -1,9 +1,7 @@
 import React from "react";
 import "./Projects.css";
-import eventuallyImage from "../images/Eventually.png";
 import gradientImage from "../images/Gradient.png";
 import pokeImage from "../images/Poke.png";
-import weatherImage from "../images/Weather.png";
 
 const Projects = () => {
   const projectList = [
