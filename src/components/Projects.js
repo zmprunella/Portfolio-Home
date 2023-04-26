@@ -16,14 +16,7 @@ const Projects = () => {
       sourceCodeLink: "https://github.com/zmprunella/react-gradient-generator",
       image: gradientImage,
     },
-    {
-      title: "Weather App",
-      description: "A weather app to get familiar using React/API's.",
-      technologies: ["React"],
-      link: "https://fastidious-sfogliatella-ba4f26.netlify.app/",
-      sourceCodeLink: "https://github.com/zmprunella/react-weather-app",
-      image: weatherImage,
-    },
+
     {
       title: "PokeDex",
       description: "A fun little project using a PokeAPI.",
@@ -31,14 +24,6 @@ const Projects = () => {
       link: "https://zippy-praline-5fe3c6.netlify.app/",
       sourceCodeLink: "https://github.com/zmprunella/react-pokedex",
       image: pokeImage,
-    },
-    {
-      title: "Todo List App",
-      description: "A full-stack App I helped create in my class.",
-      technologies: ["React", "Ruby"],
-      link: "https://example.com/project-4",
-      sourceCodeLink: "",
-      image: eventuallyImage,
     },
   ];
 

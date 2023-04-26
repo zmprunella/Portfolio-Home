@@ -23,9 +23,14 @@ function Header() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/skills" className="nav-link">
-              Skills
-            </NavLink>
+            <a
+              href="https://distrokid.com/hyperfollow/enbrayer/horizon"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="nav-link"
+            >
+              Music
+            </a>
           </li>
         </ul>
       </nav>
