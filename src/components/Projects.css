@@ -33,8 +33,9 @@
 }
 
 .project-card img {
-  width: 100%;
-  height: auto;
+  width: 300px; /* Set the desired width */
+  height: 200px; /* Set the desired height */
+  object-fit: cover;
 }
 
 .project-card h3 {

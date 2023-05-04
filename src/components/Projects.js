@@ -2,13 +2,13 @@ import React from "react";
 import "./Projects.css";
 import gradientImage from "../images/Gradient.png";
 import pokeImage from "../images/Poke.png";
+import synthImage from "../images/Synth.png";
 
 const Projects = () => {
   const projectList = [
     {
       title: "Gradient Generator",
-      description:
-        "I enjoy gradients so I wanted to create a generator to customize them.",
+      description: "Created a random gradient generator.",
       technologies: ["React"],
       link: "https://64482e2970ff0b1300cead12--glowing-cocada-a30a04.netlify.app/",
       sourceCodeLink: "https://github.com/zmprunella/react-gradient-generator",
@@ -22,6 +22,14 @@ const Projects = () => {
       link: "https://zippy-praline-5fe3c6.netlify.app/",
       sourceCodeLink: "https://github.com/zmprunella/react-pokedex",
       image: pokeImage,
+    },
+    {
+      title: "Simple Synth",
+      description: "A simple synthasizer.",
+      technologies: ["Typescript / Vue"],
+      link: "https://zesty-moxie-b93139.netlify.app/",
+      sourceCodeLink: "https://github.com/zmprunella/vue-typescript-synth",
+      image: synthImage,
     },
   ];
 
