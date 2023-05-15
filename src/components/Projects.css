@@ -26,15 +26,9 @@
   border-radius: 15px;
 }
 
-@media (min-width: 768px) {
-  .project-card {
-    width: calc(22% - 4rem);
-  }
-}
-
 .project-card img {
-  width: 300px; /* Set the desired width */
-  height: 200px; /* Set the desired height */
+  width: 300px;
+  height: 200px;
   object-fit: cover;
 }
 
@@ -101,5 +95,18 @@
 
   .project-card p {
     font-size: 0.6rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .project-card {
+    width: calc(22% - 4rem);
+  }
+}
+
+@media (max-width: 1440px) {
+  .project-card img {
+    max-width: 90%; /* Adjust as needed */
+    max-height: 90%; /* Adjust as needed */
   }
 }
