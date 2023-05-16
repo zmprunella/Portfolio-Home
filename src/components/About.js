@@ -6,16 +6,22 @@ const About = () => {
     <section className="about">
       <h2>About Me</h2>
       <p>
-        As an experienced software developer, I bring a passion for designing
-        innovative applications and a deep curiosity about how technology
-        connects our world. With over seven years of professional experience
-        across diverse industries including audio/music production 🎧 , sales 🚗
-        , and aviation 🛩 , I have gained a unique perspective that shapes my
-        approach to working with software. I thrive in fast-paced environments,
-        adapt quickly to new situations, and enjoy solving complex problems with
-        analytical and strategic thinking. My goal is to find innovative
-        opportunities to contribute to any project or company that values
-        creativity, collaboration, and cutting-edge technology.
+        Hello! I'm an experienced software developer 💻 with a passion for
+        designing innovative applications. I'm deeply curious about how
+        technology connects our world, and I'm always seeking new ways to
+        contribute my skills to interesting projects ⚙️ . My Background: I bring
+        over seven years of professional experience across diverse industries,
+        including audio/music production 🎧 , sales 🚗 , and aviation 🛩. This
+        unique background shapes my approach to software development, providing
+        me with a broad perspective and a deep understanding of different user
+        needs. My Skills: I'm adept at working in fast-paced environments,
+        adapting quickly to new situations, and solving complex problems with
+        analytical and strategic thinking. My technical skills include
+        JavaScript, React, Vue, WordPress, Hubspot, Github, and Git 💿. My Goal:
+        I'm eager to find opportunities where I can contribute creatively and
+        collaboratively to projects that value cutting-edge technology. If
+        you're looking for a developer who can bring a fresh perspective and a
+        strong technical skillset, let's connect! ☀️
       </p>
     </section>
   );
