@@ -7,7 +7,7 @@ function Home() {
     <div className="home-container">
       <div className="home-content">
         <h1 className="name">Zane Prunella</h1>
-        <h2>Software Developer</h2>
+        <h2>Front-end Developer</h2>
         <div className="contact-info">
           <a
             href="https://github.com/zmprunella"
